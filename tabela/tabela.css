@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+header{
+	background-color:Lavender;
+	height:150px;
+	display:flex;
+	color:white;
+	justify-content:space-around;
+	align-items:center;
+}
+ 
+nav{
+	background-color:Thistle;	
+	color:white;
+}
+ 
+nav ul{
+	display:flex;
+	list-style:none; /*Remove o marcador da lista*/
+	width: 700px;
+	height:50px;
+	justify-content: space-evenly; /* Distribui os elementos através do eixo principal do container*/
+	align-items:center; /*Distribui os elementos através do eixo adjacente ou auxiliar do container*/
+}
+ 
+main{
+	background-color:GhostWhite;
+	display:flex;
+	justify-content:space-around;
+	height:65vh;
+	
+}
+aside{
+	background-color:MistyRose;
+	display:flex;
+	width:30%;
+	display:flex;
+	flex-direction:column;
+	align-items:center; /*eixo adjacente*/
+	justify-content:space-evenly; /*eixo principal*/
+}
+aside div{
+	background-color:Pink;
+	width:70%;
+	height:70px;
+}
+section{
+	background-color:Seashell;
+	width:60%;
+	height:30%;
+}
+section div{
+	display:flex;
+	flex-wrap:no-wrap; /*configura a quebra de linha de elementos flex caso este
+	nao caibam no eixo principal do container*/
+	height:100%;
+	justify-content:space-evenly;
+	align-items:center;
+}
+section{
+	background-color:LavenderBlush;
+	
+}
+article{
+	background-color:AliceBlue;
+	width:40%;
+	height:90px;
+}
+#bolsa{
+	max-width:95%;
+}
+footer{
+	background-color:Violet;
+}
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
